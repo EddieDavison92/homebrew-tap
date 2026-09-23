@@ -1,28 +1,28 @@
 class SnomedEclEngine < Formula
   desc "Evaluate SNOMED CT ECL against a local index"
   homepage "https://github.com/EddieDavison92/snomed-ecl-engine"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/EddieDavison92/snomed-ecl-engine/releases/download/v0.1.1/snomed-ecl-engine-v0.1.1-aarch64-apple-darwin-default.tar.gz"
-      sha256 "deecfce911cf22e5c82946bafd098e05f71cd8c52593ff38394ee886b142d1f8"
+      url "https://github.com/EddieDavison92/snomed-ecl-engine/releases/download/v0.1.2/snomed-ecl-engine-v0.1.2-aarch64-apple-darwin-default.tar.gz"
+      sha256 "de6f4a16ef9c81e5c18d21fac919ab5ea73fa4945a376d862d2b1236784dfa4b"
     end
     on_intel do
-      url "https://github.com/EddieDavison92/snomed-ecl-engine/releases/download/v0.1.1/snomed-ecl-engine-v0.1.1-x86_64-apple-darwin-default.tar.gz"
-      sha256 "c552671b8b132c84dfa6ee0405994014e751e21a02a5481d099ed9d925cd96c0"
+      url "https://github.com/EddieDavison92/snomed-ecl-engine/releases/download/v0.1.2/snomed-ecl-engine-v0.1.2-x86_64-apple-darwin-default.tar.gz"
+      sha256 "4cda3dc424da84c7d5eb5fb7e944a68d86a28c392a6c68c7bdfa14a6158ff1a2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/EddieDavison92/snomed-ecl-engine/releases/download/v0.1.1/snomed-ecl-engine-v0.1.1-aarch64-unknown-linux-gnu-default.tar.gz"
-      sha256 "327cf30602782bd314a42ee7964ceb185d4bdd899a6dbf13706aa59398a1107c"
+      url "https://github.com/EddieDavison92/snomed-ecl-engine/releases/download/v0.1.2/snomed-ecl-engine-v0.1.2-aarch64-unknown-linux-gnu-default.tar.gz"
+      sha256 "bae652fa4d4aa039eb9847ac8ab121e1aed494b9b0749f9c662122824ee361e8"
     end
     on_intel do
-      url "https://github.com/EddieDavison92/snomed-ecl-engine/releases/download/v0.1.1/snomed-ecl-engine-v0.1.1-x86_64-unknown-linux-gnu-default.tar.gz"
-      sha256 "b149cbb614ce9aa569454a6b5e84f999954c61ac00f5b656dcb2fc51b3450b13"
+      url "https://github.com/EddieDavison92/snomed-ecl-engine/releases/download/v0.1.2/snomed-ecl-engine-v0.1.2-x86_64-unknown-linux-gnu-default.tar.gz"
+      sha256 "3a39160bde831eb8798bd1802899231d49fa1a696eabdf64e39b3c0a2c734e04"
     end
   end
 
